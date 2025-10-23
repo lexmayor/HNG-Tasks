@@ -21,7 +21,7 @@ const ProfileCard = () => {
             {/* Avatar */}
             <figure className="flex flex-col text-center items-center">
                 <img 
-                    src="public/avatar.jpg"
+                    src="/avatar.jpg"
                     alt="user-avatar"
                     data-testid="test-user-avatar"
                     className="size-32 rounded-full "/>
