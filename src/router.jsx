@@ -6,7 +6,7 @@ const App = () => {
     return (
         <BrowserRouter>
             <Routes>
-                <Route path="/profile-card" element={<ProfileCard/>}/>
+                <Route path="/" element={<ProfileCard/>}/>
                  
             </Routes>
         </BrowserRouter>
