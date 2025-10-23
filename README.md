@@ -1,16 +1,47 @@
-# React + Vite
+# Profile Card Project
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A responsive and accessible profile card built with React and TailwindCSS.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Live Demo
+👉 [View on Netlify](https://my-profile-card.netlify.app/)
 
-## React Compiler
+---
 
-The React Compiler is currently not compatible with SWC. See [this issue](https://github.com/vitejs/vite-plugin-react/issues/428) for tracking the progress.
+## 🧱 Tech Stack
+- React (Vite)
+- Tailwind CSS
+- JavaScript (ES6)
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🧩 Features
+- Displays profile info, avatar, bio, hobbies, and dislikes.
+- Shows current time in milliseconds.
+- Accessible, semantic HTML.
+- Responsive layout for mobile, tablet, and desktop.
+- Social links open in new tabs.
+
+---
+
+## 🧪 Data Test IDs
+| Element | data-testid |
+|----------|--------------|
+| Profile Card | `test-profile-card` |
+| User Name | `test-user-name` |
+| User Bio | `test-user-bio` |
+| User Time | `test-user-time` |
+| User Avatar | `test-user-avatar` |
+| Social Links | `test-user-social-links` |
+| Hobbies | `test-user-hobbies` |
+| Dislikes | `test-user-dislikes` |
+
+---
+
+## 🖥️ Run Locally
+```bash
+git clone https://github.com/<username>/<repo-name>.git
+cd <repo-name>
+npm install
+npm run dev
