@@ -1,5 +1,6 @@
 import { Link } from "react-router";
 import { useState, useEffect } from "react";
+import avatar from "../assets/avatar.jpg"
 
 const ProfileCard = () => {
      // Current time in milliseconds
@@ -21,7 +22,7 @@ const ProfileCard = () => {
             {/* Avatar */}
             <figure className="flex flex-col text-center items-center">
                 <img 
-                    src="/avatar.jpg"
+                    src={avatar}
                     alt="user-avatar"
                     data-testid="test-user-avatar"
                     className="size-32 rounded-full "/>
